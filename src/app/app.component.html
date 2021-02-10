@@ -1,18 +1,17 @@
 <header class="header">
     <section class="header-logo-links">
         <div class="header-width">
-            <!-- <a href="{{originUrl}}" target="_self" class="header-logo"></a> -->
             <div class="logo-wrapper">
                 <div class="logo-container">
                     <div class="logo"></div>
                     <div class="image-container">
-                        <a href="{{originUrl}}"><img src="../../../../cs/cop/assets/images/avaya_logo_onecare_@2.png" alt="Avaya Sales &amp; Partner Portal"></a>
+                        <a href="#"><img src="../../../../cs/cop/assets/images/avaya_logo_onecare_@2.png" alt="Avaya Sales &amp; Partner Portal"></a>
                     </div>
                 </div>
             </div>
             <!-- *ngIf="hideMobile" -->
             <div class="hideMobileView white-serach-icon-container">
-                <span (click)="headSearch()" *ngIf="!show">
+                <span>
           <!-- *ngIf="!show" -->
           <i class="icon-search-marketplace pt-2"></i>
 
@@ -20,7 +19,7 @@
         </span>
             </div>
 
-            <div class="mobile-menu" (click)="toggleMobileview()">
+            <div class="mobile-menu">
                 <i class="icon-menu"></i>
             </div>
             <ul class="header-links">
@@ -28,14 +27,14 @@
                     <a href="#">
                         <img src="../../../../cs/cop/assets/images/reportoutage4.png"></a>
                 </li>
-                <li class="menuList" copDropdown (clickOutside)="closeMenuItems()">
+                <li class="menuList" copDropdown>
                     <a>Current Outages
             <span>
             </span>
           </a>
                 </li>
 
-                <li class="menuList" copDropdown (clickOutside)="closeMenuItems()">
+                <li class="menuList" copDropdown>
                     <a>Docs and FAQs
             <span>
             </span>
@@ -54,9 +53,9 @@
 
 
 <div class="action-card-block-wrapper">
-    <div class="loading-shade" *ngIf="isLoadingResults">
+    <!-- <div class="loading-shade" *ngIf="isLoadingResults">
         <div class="loader" alt="Please wait..."></div>
-    </div>
+    </div> -->
     <div class="action-card-wrapper">
         <!-- <div class="action-card raise">
             <div class="action-inner">
@@ -244,4 +243,4 @@
     </div>
 </footer>
 
-<!-- <router-outlet></router-outlet> -->
+<router-outlet></router-outlet>
