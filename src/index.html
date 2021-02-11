@@ -91,26 +91,12 @@
                     </div>\
                   </div>';
             document.getElementById("appValidator").appendChild(appValidatorNode);
-            Array.prototype.slice.call(document.getElementsByTagName('cop-root')).forEach(
+            Array.prototype.slice.call(document.getElementsByTagName('app-root')).forEach(
                 function(item) {
                     item.remove();
                 });
         }
         if (IECheck) IEMessage();
-    </script>
-    <!-- Browser Support Check -->
-    <script type="text/javascript" charset="UTF-8">
-        function delete_cookie() {
-            document.cookie = 'OptanonAlertBoxClosed=; path=/; domain=.www.avaya.com; expires=' + new Date(0).toUTCString();
-            document.cookie = 'OptanonConsent=; path=/; domain=.www.avaya.com; expires=' + new Date(0).toUTCString();
-        }
-        delete_cookie();
-    </script>
-
-    <!-- OneTrust Cookies Consent Notice (Staging, avaya.com, en-GB) start -->
-    <script type="text/javascript" charset="UTF-8" data-document-language="true" src="https://optanon.blob.core.windows.net/consent/2866495f-3675-4773-8d16-891694bf4c2b-test.js" integrity="sha256-b0hltHyvu0iey/qMWbiCFzczPDi14lC0ZHJpFYAzUS8=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        function OptanonWrapper() {}
     </script>
 </body>
 
