@@ -44,19 +44,19 @@ var TabContainer123545 = `
   {
     "title": "Requests",
     "description": "Review the list of opened requests below and take the relevant action",
-    "url": "./../../../../../cs/cop/assets/data/cmtickets.json",
+    "url": "./cs/cop/assets/data/cmtickets.json",
     "alttext": "Review the list of opened requests below and take the relevant action"
   },
   {
     "title": "History",
     "description": "Ticket History",
-    "url": "./../../../../../cs/cop/assets/data/cmtickets.json",
+    "url": "./cs/cop/assets/data/cmtickets.json",
     "alttext": "Review the list of opened requests below and take the relevant action"
   },
   {
     "title": "Delegation",
     "description": "Review the list of opened requests below and take the relevant action",
-    "url": "./../../../../../cs/cop/assets/data/dgtickets.json",
+    "url": "./cs/cop/assets/data/dgtickets.json",
     "alttext": "Review the list of opened requests below and take the relevant action"
   }
 ]`;
@@ -148,7 +148,7 @@ var catalog1378121271914 = `
     "title": "Onboarding Help",
     "appendtotitle": "true",
     "displayinportal": "true",
-    "tileicon": "./../../../../../cs/cop/assets/images/search.png",
+    "tileicon": "./cs/cop/assets/images/search.png",
     "categoryassocs": [
       
       {
@@ -275,7 +275,7 @@ var catalog1378121271914 = `
         "id": "1397215135581",
         "context1": "AVA-CUSTOPS-ONBOARDING",
         "title": "Storefront",
-        "questionsassoc": "./../../../../../cs/cop/assets/data/storefront.json",
+        "questionsassoc": "./cs/cop/assets/data/storefront.json",
         "context4": "Onboarding Help | Access Issues, SSO or PRM",
         "description": "Get assistance with Avaya, partner onboarding, promotion programs and marketing campaigns",
         "kbtitle": "Self Help",

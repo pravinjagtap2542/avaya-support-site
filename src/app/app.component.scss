@@ -6,7 +6,7 @@
 @import "../stylesheets/components/titles";
 @import "../stylesheets/base/_helpers.scss";
 .pattern-underline {
-    //background: url('../../../../../cs/cop/assets/images/svgs/avaya-bar.svg') no-repeat 50% 100%;
+    //background: url('./cs/cop/assets/images/svgs/avaya-bar.svg') no-repeat 50% 100%;
 }
 
 .outage {
@@ -958,9 +958,7 @@ a.optanon-show-settings {
     font-family: "Proxima Nova", proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
-
 // Sunny CSS
-
 .action-card-block-wrapper {
     margin-top: 100px;
 }
