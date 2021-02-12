@@ -117,6 +117,31 @@
         @include mat-elevation(8);
     }
 }
-.mainContent{
-    margin-top: 80px;;
+
+.mainContent {
+    margin-top: 80px;
+    ;
+}
+
+.hero {
+    background-color: $hero-bg;
+    background-repeat: no-repeat;
+    height: 94px;
+    margin-top: 69px;
+    .hero-title {
+        max-width: $max-width;
+        margin: 0 auto;
+        color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 100%;
+        padding: 20px 0px;
+    }
+    @media screen and (max-width: 1024px) {
+        padding: 0 20px;
+    }
+    @media screen and (max-width: 767px) {
+        background-image: none !important;
+    }
 }

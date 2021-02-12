@@ -9,6 +9,8 @@ import { HomeComponent } from './routes/home/home.component';
 
 import { MatTabsModule } from '@angular/material/tabs';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { DropdownDirective, SubDropdownDirective, ProfileDropdownDirective } from './directives/dropdown.directive';
+import { ClickOutsideModule } from 'ng4-click-outside';
 
 @NgModule({
   declarations: [
@@ -16,12 +18,16 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     FooterComponent,
     HeaderComponent,
     HomeComponent,
+    DropdownDirective,
+    SubDropdownDirective,
+    ProfileDropdownDirective,
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    MatTabsModule
+    MatTabsModule,
+    ClickOutsideModule
   ],
   providers: [],
   bootstrap: [AppComponent]

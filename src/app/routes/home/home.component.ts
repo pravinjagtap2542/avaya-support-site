@@ -21,7 +21,8 @@ export class HomeComponent implements OnInit {
         observer.next([
           {label: 'Associate Support', content: 'Content 1'},
           {label: 'Partner Support', content: 'Content 2'},
-          {label: 'Other', content: 'Content 3'},
+          {label: 'OneCloud IT Support', content: 'Content 3'},
+          {label: 'AvayaCloud.de Support', content: 'Content 3'},
         ]);
       }, 1000);
     });

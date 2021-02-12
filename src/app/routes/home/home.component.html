@@ -1,5 +1,5 @@
 <ng-container class="mytab" *ngIf="(asyncTabs | async) === null">
-    Loading tabs...
+    Loading Content...
 </ng-container>
 
 <mat-tab-group class="mytab">
@@ -14,7 +14,7 @@
                             <div class="action-inner">
                                 <div class="icon-action-inner">
                                     <p class="icon">
-                                        <img src="./cs/cop/assets/images/onboarding.png">
+                                        <img src="./cs/cop/assets/images/corpapp.png">
                                     </p>
                                     <h6> Covid-19 Temporary Licenses </h6>
                                 </div>
@@ -35,13 +35,15 @@
                                     <p class="icon">
                                         <img src="./cs/cop/assets/images/onboarding.png">
                                     </p>
-                                    <h6> Pre Sales Technical Support (ATAC) </h6>
+                                    <h6> Onboarding and PRM Help </h6>
                                 </div>
-                                <p> Expert assistance on pre sales technical questions relating to features, functionality, interoperability, integration and designing of Avaya solutions </p>
-                                <div class="action-link">
-                                    New Request
-                                    <i class="icon-add"></i>
-                                </div>
+                                <p> Learn how to conduct business with Avaya, partner onboarding, promotion programs and marketing campaigns </p>
+                                <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                                    <div class="action-link">
+                                        New Request
+                                        <i class="icon-add"></i>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -50,15 +52,17 @@
                             <div class="action-inner">
                                 <div class="icon-action-inner">
                                     <p class="icon">
-                                        <img src="./cs/cop/assets/images/onboarding.png">
+                                        <img src="./cs/cop/assets/images/experienceavaya2.png">
                                     </p>
-                                    <h6> Pre Sales Technical Support (ATAC) </h6>
+                                    <h6> Experience Avaya </h6>
                                 </div>
-                                <p> Expert assistance on pre sales technical questions relating to features, functionality, interoperability, integration and designing of Avaya solutions </p>
-                                <div class="action-link">
-                                    New Request
-                                    <i class="icon-add"></i>
-                                </div>
+                                <p> Assistance for Experience Avaya hosted demos, Experience Avaya hosted labs, Customer Experience Centers (CEC) and Collaboratory labs </p>
+                                <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                                    <div class="action-link">
+                                        New Request
+                                        <i class="icon-add"></i>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -67,15 +71,17 @@
                             <div class="action-inner">
                                 <div class="icon-action-inner">
                                     <p class="icon">
-                                        <img src="./cs/cop/assets/images/onboarding.png">
+                                        <img src="./cs/cop/assets/images/contactcenter.png">
                                     </p>
                                     <h6> Pre Sales Technical Support (ATAC) </h6>
                                 </div>
                                 <p> Expert assistance on pre sales technical questions relating to features, functionality, interoperability, integration and designing of Avaya solutions </p>
-                                <div class="action-link">
-                                    New Request
-                                    <i class="icon-add"></i>
-                                </div>
+                                <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                                    <div class="action-link">
+                                        New Request
+                                        <i class="icon-add"></i>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -86,15 +92,17 @@
                             <div class="action-inner">
                                 <div class="icon-action-inner">
                                     <p class="icon">
-                                        <img src="./cs/cop/assets/images/onboarding.png">
+                                        <img src="./cs/cop/assets/images/quoting,0.png">
                                     </p>
-                                    <h6> Pre Sales Technical Support (ATAC) </h6>
+                                    <h6> Quoting and Ordering </h6>
                                 </div>
-                                <p> Expert assistance on pre sales technical questions relating to features, functionality, interoperability, integration and designing of Avaya solutions </p>
-                                <div class="action-link">
-                                    New Request
-                                    <i class="icon-add"></i>
-                                </div>
+                                <p> Get assistance with Avaya One Source (A1S) quoting and ordering or place a manual order for Product and Services </p>
+                                <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                                    <div class="action-link">
+                                        New Request
+                                        <i class="icon-add"></i>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -103,15 +111,17 @@
                             <div class="action-inner">
                                 <div class="icon-action-inner">
                                     <p class="icon">
-                                        <img src="./cs/cop/assets/images/onboarding.png">
+                                        <img src="./cs/cop/assets/images/order.png">
                                     </p>
-                                    <h6> Pre Sales Technical Support (ATAC) </h6>
+                                    <h6> Order Fulfillment </h6>
                                 </div>
-                                <p> Expert assistance on pre sales technical questions relating to features, functionality, interoperability, integration and designing of Avaya solutions </p>
-                                <div class="action-link">
-                                    New Request
-                                    <i class="icon-add"></i>
-                                </div>
+                                <p> Questions or issues regarding the delivery of hardware and software orders which you have already placed on Avaya </p>
+                                <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                                    <div class="action-link">
+                                        New Request
+                                        <i class="icon-add"></i>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -120,15 +130,17 @@
                             <div class="action-inner">
                                 <div class="icon-action-inner">
                                     <p class="icon">
-                                        <img src="./cs/cop/assets/images/onboarding.png">
+                                        <img src="./cs/cop/assets/images/invoice,0.png">
                                     </p>
-                                    <h6> Pre Sales Technical Support (ATAC) </h6>
+                                    <h6> Invoice and Dispute Management </h6>
                                 </div>
-                                <p> Expert assistance on pre sales technical questions relating to features, functionality, interoperability, integration and designing of Avaya solutions </p>
-                                <div class="action-link">
-                                    New Request
-                                    <i class="icon-add"></i>
-                                </div>
+                                <p> For assistance with your Avaya invoice, including disputes or copy requests. Also request transfers, copy statements or account reconciliations </p>
+                                <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                                    <div class="action-link">
+                                        New Request
+                                        <i class="icon-add"></i>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -137,18 +149,21 @@
                             <div class="action-inner">
                                 <div class="icon-action-inner">
                                     <p class="icon">
-                                        <img src="./cs/cop/assets/images/onboarding.png">
+                                        <img src="./cs/cop/assets/images/support.png">
                                     </p>
-                                    <h6> Pre Sales Technical Support (ATAC) </h6>
+                                    <h6> Maintenance </h6>
                                 </div>
-                                <p> Expert assistance on pre sales technical questions relating to features, functionality, interoperability, integration and designing of Avaya solutions </p>
-                                <div class="action-link">
-                                    New Request
-                                    <i class="icon-add"></i>
-                                </div>
+                                <p> Get assistance with Maintenance contracts updates, support and queries </p>
+                                <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                                    <div class="action-link">
+                                        New Request
+                                        <i class="icon-add"></i>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
+
                 </div>
 
                 <!-- </div> -->

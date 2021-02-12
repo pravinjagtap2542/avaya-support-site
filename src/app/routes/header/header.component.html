@@ -30,6 +30,19 @@
             </span>
           </a>
                 </li>
+
+                <li (clickOutside)="closeMenuItems()" copprofDropdown class="menuList user-avatar requestsmenu  ml-auto">
+                    <a>
+                        <span>
+                            <i  class="icon-avatar iconAlignment"></i>
+                        </span>
+                        <span class="img-cursor d-inline-block pl-2 pt-1 d-sm-none mob-ico-text">My Account</span>
+                    </a>
+                    <ul class="user-dropdown public cop-prof">
+                        <li class="user"><a title="Avaya Contractor">Pravin Jagtap</a></li>
+                        <li class=""><a href="https://login.avaya.com/sso/common/logout.jsp?source=https://onecare.avaya.com/">Logout</a></li>
+                    </ul>
+                </li>
             </ul>
         </div>
     </section>
