@@ -1,1 +1,62 @@
-<p>enterticket works!</p>
+<div class="action-card-block-wrapper">
+    <div class="action-card-wrapper container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="action-card raise">
+                    <div class="action-inner">
+                        <div class="icon-action-inner">
+                            <p class="icon">
+                                <img src="./cs/cop/assets/images/support.png">
+                            </p>
+                            <h6> Service Request </h6>
+                        </div>
+                        <p> Obtain, remove or modify accounts, access or reset a password, Onboard or offboard an associate </p>
+                        <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                            <div class="action-link text-center">
+                                Create Request
+                            </div>
+                        </a>
+                        <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                            <div class="action-link text-center">
+                                Manage Request
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-8">
+                <div class="action-card raise">
+                    <div class="action-inner">
+                        <div class="icon-action-inner">
+                            <p class="icon">
+                                <img src="./cs/cop/assets/images/systems.png">
+                            </p>
+                            <h6> Part Request </h6>
+                        </div>
+                        <p> Obtain, remove or modify accounts, access or reset a password, Onboard or offboard an associate </p>
+                        <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                            <div class="action-link text-center">
+                                Support Agreement / Registered Parts Replacement
+                            </div>
+                        </a>
+                        <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                            <div class="action-link text-center">
+                                Provisioning DOA
+                            </div>
+                        </a>
+                        <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                            <div class="action-link text-center">
+                                Logistics / Shipping Claims
+                            </div>
+                        </a>
+                        <a [routerLinkActive]="['']" #enterticket="routerLinkActive" [routerLinkActiveOptions]="{exact: true}" routerLink="/service-requests/enterticket">
+                            <div class="action-link text-center">
+                                Non-Registered Warranty Parts
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

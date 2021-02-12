@@ -119,8 +119,7 @@
 }
 
 .mainContent {
-    margin-top: 80px;
-    ;
+    margin: 25px;
 }
 
 .hero {
@@ -136,7 +135,7 @@
         flex-direction: column;
         justify-content: center;
         height: 100%;
-        padding: 20px 0px;
+        padding: 55px 0px;
     }
     @media screen and (max-width: 1024px) {
         padding: 0 20px;

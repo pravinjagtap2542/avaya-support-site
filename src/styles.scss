@@ -53,9 +53,70 @@ mat-expansion-panel#whiteWrapRemove2 span {
     margin-bottom: 5px;
     opacity: 1;
 }
+
 .mat-tab-group.mat-primary .mat-ink-bar {
     background-color: #fff;
 }
-.footer{
+
+.footer {
     padding: 20px 0 5px 0;
 }
+
+@import "./stylesheets/abstracts/_variables.scss";
+.action-inner {
+    height: 100%;
+    display: inline-table;
+    flex-direction: column;
+    min-height: 200px;
+    padding: 9px;
+    .icon-action-inner {
+        display: flex;
+        .icon {
+            img {
+                min-width: 70px;
+                height: 65px;
+                margin: 5px;
+            }
+        }
+        h6 {
+            padding: 11px 0px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    p {
+        padding: 5px 20px 25px;
+        font-size: $text-font-size-small;
+        height: 90px;
+    }
+    .action-link {
+        background: $jelly-bean;
+        padding: 10px 20px;
+        font-size: $text-font-size-small;
+        line-height: $text-font-size-small;
+        text-align: right;
+        color: $white;
+        margin-top: 25px;
+        i {
+            font-size: 10px;
+            padding-left: 5px;
+        }
+    }
+}
+
+.action-card-block-wrapper {
+    margin-top: 35px;
+}
+
+.col-md-3 {
+    // box-shadow: 0px 0px 1px 0px #000;
+    margin-bottom: 15px;
+}
+
+.action-card.raise {
+    box-shadow: 0px 0px 1px 0px #000;
+}
+
+// .mytab {
+//     margin-top: 80px;
+// }
