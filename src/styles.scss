@@ -60,6 +60,11 @@ mat-expansion-panel#whiteWrapRemove2 span {
 
 .footer {
     padding: 20px 0 5px 0;
+    // position: absolute;
+    // width: 100%;
+    // overflow: hidden;
+    // top: calc(100% - 100px);
+    // left: 0;
 }
 
 @import "./stylesheets/abstracts/_variables.scss";

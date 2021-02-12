@@ -9,3 +9,42 @@
 .action-inner p {
     height: 90px;
 }
+
+.action-card.raise {
+    box-shadow: none;
+}
+.ticktTopBorder{
+    border-top: 2px solid #d5d4d4;
+}
+
+.col-md-3 {
+    border-right: 1px solid #d5d4d4;
+}
+.col-md-9 {
+    border-left: 1px solid #d5d4d4;
+}
+
+p.icon {
+    margin: 0;
+}
+.action-inner .icon-action-inner .icon img {
+    min-width: 30px;
+    height: 45px;
+}
+.action-inner p {
+    height: auto;
+    padding-bottom: 0;
+}
+.action-inner .icon-action-inner h6 {
+    padding: 18px 0px;
+}
+.action-inner .action-link {
+    margin-top: 15px;
+}
+h5.boildTitle {
+    font-weight: bold;
+}
+.action-card-wrapper.container-fluid {
+    padding: 0 65px;
+    min-height: 450px;
+}
